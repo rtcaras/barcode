@@ -1,0 +1,25 @@
+{
+  "name": "barcode",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/app.ts"
+  },
+  "author": "Rosemary",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.8.4",
+    "express": "^4.21.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.7.3",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
+  }
+}
